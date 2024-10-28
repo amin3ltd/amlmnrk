@@ -1308,7 +1308,7 @@ body .theme-button-one:hover {background:#188618; }
 .theme-inner-banner .overlay h2 {font-size: 45px;color: #fff;text-transform: uppercase;}
 /*------------------- Why WE Best -------------------*/
 .why-we-best {
-  background: url(../images/home/11.jpg) no-repeat center center;
+  background: url(../images/home/aboutback1.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   background-color: #707d9e;
@@ -1328,7 +1328,7 @@ body .theme-button-one:hover {background:#188618; }
   margin: 55px 0 0 0;
 }
 .why-we-best .wrapper .img-box {
-  background: url(../images/home/16.jpg) no-repeat center center;
+  background: url(../images/home/about2.jpg) no-repeat center center;
   background-size: cover;
   border-radius: 0 5px 5px 0;
   position: relative;

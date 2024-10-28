@@ -157,7 +157,7 @@
 								</div> <!-- /.theme-title-one -->
 								<p>REKIK TRADING PLC was established in 2023 with a vision to create impactful solutions across multiple sectors, including agriculture, security, real estate, and manufacturing. Founded by a team of visionary entrepreneurs, the company began its journey by addressing the needs of local communities through high-quality products and services. As the company grew, it expanded its offerings to include educational training, reflecting a commitment to not only enhancing businesses but also empowering individuals through knowledge and skill development</p>
 								<p>Over the years, REKIK TRADING PLC has built a reputation for reliability and excellence. The company has successfully executed numerous projects, adapting to changing market dynamics while maintaining a focus on sustainability and customer satisfaction. With a strong foundation rooted in integrity and quality, REKIK TRADING PLC continues to evolve, exploring new opportunities and innovations that contribute to the growth and development of its clients and the communities it serves.</p>
-								<img src="images/home/sign-black.png" alt="" class="sign">
+								<!-- <img src="images/home/sign-black.png" alt="" class="sign"> -->
 							</div> <!-- /.col- -->
 							<div class="col-lg-6 col-12 order-lg-first" style="text-align: left; padding: 20px;">
 								<img src="images/home/kako.jpg" alt="" class="left-img" style="max-width: 100%; height: auto; border-radius: 8px;">
@@ -287,36 +287,51 @@
 							<div class="item">
 								<div class="single-value-block">
 									<div class="image-box">
-										<img src="images/home/17.jpg" alt="">
-										<div class="overlay"><a href="#" class="theme-button-one">READ MORE</a></div>
+										<img src="images/home/quality.jpg" alt="" style="max-width: 100%; height: auto; border-radius: 8px;">
+										<div class="overlay">
+											<a href="javascript:void(0);" class="theme-button-one" onclick="toggleContent(this)">READ MORE</a>
+										</div>
 									</div> <!-- /.image-box -->
 									<div class="text">
 										<h5><a href="#">Quality Commitment</a></h5>
 										<p>Delivering products and services that meet the highest standards of quality and customer satisfaction.</p>
+										<div class="additional-content" style="display: none; padding-top: 10px;">
+											<p>We are committed to continuous improvement and excellence in our operations, ensuring our clients receive only the best.</p>
+										</div> <!-- /.additional-content -->
 									</div> <!-- /.text -->
 								</div> <!-- /.single-value-block -->
 							</div> <!-- /.col- -->
 							<div class="item">
 								<div class="single-value-block">
 									<div class="image-box">
-										<img src="images/home/18.jpg" alt="">
-										<div class="overlay"><a href="#" class="theme-button-one">READ MORE</a></div>
+										<img src="images/home/integrity.jpg" alt="" style="max-width: 100%; height: auto; border-radius: 8px;">
+										<div class="overlay">
+											<a href="javascript:void(0);" class="theme-button-one" onclick="toggleContent(this)">READ MORE</a>
+										</div>
 									</div> <!-- /.image-box -->
 									<div class="text">
 										<h5><a href="#">Integrity & Transparency</a></h5>
 										<p>Upholding ethical practices and maintaining transparency in all business operations.</p>
+										<div class="additional-content" style="display: none; padding-top: 10px;">
+											<p>Our commitment to integrity means we operate with honesty and transparency, building trust with our stakeholders.</p>
+										</div> <!-- /.additional-content -->
 									</div> <!-- /.text -->
 								</div> <!-- /.single-value-block -->
 							</div> <!-- /.col- -->
 							<div class="item">
 								<div class="single-value-block">
 									<div class="image-box">
-										<img src="images/home/19.jpg" alt="">
-										<div class="overlay"><a href="#" class="theme-button-one">READ MORE</a></div>
+										<img src="images/home/innovation.jpg" alt="" style="max-width: 100%; height: auto; border-radius: 8px;">
+										<div class="overlay">
+											<a href="javascript:void(0);" class="theme-button-one" onclick="toggleContent(this)">READ MORE</a>
+										</div>
 									</div> <!-- /.image-box -->
 									<div class="text">
 										<h5><a href="#">Innovation & Growth</a></h5>
 										<p>Continuously innovating to drive business growth and enhance customer experience.</p>
+										<div class="additional-content" style="display: none; padding-top: 10px;">
+											<p>We embrace new technologies and methodologies to provide cutting-edge solutions for our clients.</p>
+										</div> <!-- /.additional-content -->
 									</div> <!-- /.text -->
 								</div> <!-- /.single-value-block -->
 							</div> <!-- /.col- -->
@@ -324,6 +339,19 @@
 					</div> <!-- /.wrapper -->
 				</div> <!-- /.container -->
 			</div> <!-- /.core-values -->
+			
+			<script>
+			function toggleContent(button) {
+				const additionalContent = button.closest('.single-value-block').querySelector('.additional-content');
+				if (additionalContent.style.display === "none") {
+					additionalContent.style.display = "block";
+					button.innerText = "READ LESS"; // Change button text to READ LESS
+				} else {
+					additionalContent.style.display = "none";
+					button.innerText = "READ MORE"; // Change button text back to READ MORE
+				}
+			}
+			</script>
 			
 			<!--
 			=====================================================

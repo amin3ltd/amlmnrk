@@ -82,21 +82,13 @@
                         <li><a href="news.html">News</a></li>
                         <li><a href="contact.html">Contact</a></li>
 						<li><a href="register.html">Register</a></li>
+						<li id="google_translate_element"></li>
                     </ul>
                 </nav>
             </div>
-            <div class="right-widget float-right">
+            <div class="right-widget float-right" >
                 <ul>
-                    <li>
-                        <div id="polyglotLanguageSwitcher">
-                            <form action="#">
-                                <select id="polyglot-language-options">
-                                    <option id="en" value="en" selected>English</option>
-                                    <option id="et" value="et">Amharic</option>
-                                </select>
-                            </form>
-                        </div>
-                    </li>
+                    
                     <li class="social-icon">
                         <ul>
                             <li><a href="https://web.facebook.com/..."><i class="fa fa-facebook"></i></a></li>
@@ -716,7 +708,18 @@
 
 
 		<!-- Optional JavaScript _____________________________  -->
-
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+				new google.translate.TranslateElement({
+					pageLanguage: 'en',
+					includedLanguages: 'en,am', // English and Amharic
+					layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+					autoDisplay: false
+				}, 'google_translate_element');
+			}
+		</script>
+	
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     	<!-- jQuery -->
 		<script src="vendor/jquery.2.2.3.min.js"></script>

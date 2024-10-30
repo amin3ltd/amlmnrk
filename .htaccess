@@ -1,3 +1,0 @@
-# Rewrite rule to remove .html extension
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html [L]

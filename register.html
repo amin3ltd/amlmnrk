@@ -108,78 +108,220 @@
         </div>
     </div>
 </div>
-
 <div class="topics" style="padding: 30px; border: 1px solid #ccc; margin: 20px auto; max-width: 800px; background-color: #f9f9f9; border-radius: 8px;">
-    <h4 class="sub-heading" style="font-size: 1.8em; color: #333; margin-bottom: 20px; text-align: center;">Latest News and Job Vacancies</h4>
-    
-    <div id="newsVacancyCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <!-- Rental News Section -->
-            <div class="carousel-item active" style="padding: 15px; background-color: #fff;">
-                <h5 style="color: #0a52a0;">Latest Rental News</h5>
-                <img src="images/home/rent1.jpg" class="d-block w-100" alt="Rental News Image 1" style="border-radius: 8px; margin-bottom: 15px;">
-            </div>
+    <h4 class="sub-heading text-center" style="font-size: 1.8em; color: #333; margin-bottom: 20px;">Joint Venture Member Registration Form</h4>
+   
+    <form id="registrationForm" action="#" method="post">
+        <h3>1. Personal Information</h3>
+        <div class="form-group">
+            <label for="full_name">Full Name:</label>
+            <input type="text" class="form-control" id="full_name" name="full_name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" class="form-control" id="dob" name="dob" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="nationality">Nationality:</label>
+            <input type="text" class="form-control" id="nationality" name="nationality" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="contact_number">Contact Number:</label>
+            <input type="text" class="form-control" id="contact_number" name="contact_number" required pattern="[0-9]{10}">
+            <small>Format: 10-digit number</small>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="address">Residential Address (within Addis Ababa):</label>
+            <input type="text" class="form-control" id="address" name="address" required>
+        </div>
 
-            <div class="carousel-item" style="padding: 15px; background-color: #fff;">
-                <h5 style="color: #0a52a0;">Latest Rental News</h5>
-                <img src="images/home/rent2.jpg" class="d-block w-100" alt="Rental News Image 2" style="border-radius: 8px; margin-bottom: 15px;">
+        <h3>2. Professional Information</h3>
+        <div class="form-group">
+            <label for="occupation">Current Occupation / Title:</label>
+            <input type="text" class="form-control" id="occupation" name="occupation" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="company">Company / Organization:</label>
+            <input type="text" class="form-control" id="company" name="company" required>
+        </div>
+        
+        <div class="form-group">
+            <label>Industry:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="industry[]" value="Agriculture" id="industry1">
+                <label class="form-check-label" for="industry1">Agriculture</label>
             </div>
-
-            <div class="carousel-item" style="padding: 15px; background-color: #fff;">
-                <h5 style="color: #0a52a0;">Latest Rental News</h5>
-                <img src="images/home/rent3.jpg" class="d-block w-100" alt="Rental News Image 3" style="border-radius: 8px; margin-bottom: 15px;">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="industry[]" value="Security" id="industry2">
+                <label class="form-check-label" for="industry2">Security</label>
             </div>
-
-            <div class="carousel-item" style="padding: 15px; background-color: #fff;">
-                <h5 style="color: #0a52a0;">Latest Rental News</h5>
-                <img src="images/home/rent4.jpg" class="d-block w-100" alt="Rental News Image 4" style="border-radius: 8px; margin-bottom: 15px;">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="industry[]" value="Real Estate" id="industry3">
+                <label class="form-check-label" for="industry3">Real Estate</label>
             </div>
-
-            <div class="carousel-item" style="padding: 15px; background-color: #fff;">
-                <h5 style="color: #0a52a0;">Latest Rental News</h5>
-                <img src="images/home/rent5.jpg" class="d-block w-100" alt="Rental News Image 5" style="border-radius: 8px; margin-bottom: 15px;">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="industry[]" value="Manufacturing" id="industry4">
+                <label class="form-check-label" for="industry4">Manufacturing</label>
             </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="industry[]" value="Education & Training" id="industry5">
+                <label class="form-check-label" for="industry5">Education & Training</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="industry[]" value="Other" id="industry6">
+                <label class="form-check-label" for="industry6">Other</label>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="experience_level">Experience Level:</label>
+            <input type="text" class="form-control" id="experience_level" name="experience_level" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="certifications">Professional Certifications (if any):</label>
+            <input type="text" class="form-control" id="certifications" name="certifications">
+        </div>
 
-            <!-- Job Vacancy Section -->
-            <div class="carousel-item" style="padding: 15px; background-color: #fff;">
-                <h5 style="color: #28a745;">Job Vacancies</h5>
-                <p style="margin: 0; color: #555;">
-                    <strong>Position:</strong> Sales Manager<br>
-                    <strong>Location:</strong> Addis Ababa, Ethiopia<br>
-                    <strong>Responsibilities:</strong> Oversee regional sales operations, develop strategies to increase market share, and manage a team of sales representatives. Ideal candidates will have 5+ years of experience in sales within the manufacturing or industrial sectors.<br>
-                    <strong>Requirements:</strong> Bachelor's degree in Business or related field, strong leadership skills, and a proven sales record.
-                </p>
-                <hr style="border-top: 1px solid #ccc; margin: 15px 0;">
-                <p style="margin: 0; color: #555;">
-                    <strong>Position:</strong> Quality Control Specialist<br>
-                    <strong>Location:</strong> Addis Ababa, Ethiopia<br>
-                    <strong>Responsibilities:</strong> Ensure the quality and safety of our products by conducting regular inspections and overseeing compliance with safety standards. Applicants should have a degree in Chemistry or a related field, with experience in quality assurance being an advantage.<br>
-                    <strong>Requirements:</strong> Attention to detail and problem-solving skills are essential.
-                </p>
-                <hr style="border-top: 1px solid #ccc; margin: 15px 0;">
-                <p style="margin: 0; color: #555;">
-                    <strong>Position:</strong> Logistics Coordinator<br>
-                    <strong>Location:</strong> Addis Ababa, Ethiopia<br>
-                    <strong>Responsibilities:</strong> Manage the supply chain and logistics operations, coordinate with suppliers and customers, and optimize transportation routes.<br>
-                    <strong>Requirements:</strong> Bachelor’s degree in Logistics, Business Administration, or related field, along with 3+ years of experience in logistics or supply chain management.
-                </p>
-                <p style="margin-top: 15px; color: #555;">
-                    Interested applicants can send their resume and cover letter to <a href="mailto:hr@rekiktrading.com" style="color: #0a52a0;">hr@rekiktrading.com</a>. We look forward to welcoming you to our team!
-                </p>
+        <h3>3. Business / Joint Venture Interests</h3>
+        <div class="form-group">
+            <label>Proposed Joint Venture Sector:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="proposed_sector[]" value="Agriculture" id="proposed_sector1">
+                <label class="form-check-label" for="proposed_sector1">Agriculture</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="proposed_sector[]" value="Security" id="proposed_sector2">
+                <label class="form-check-label" for="proposed_sector2">Security</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="proposed_sector[]" value="Real Estate" id="proposed_sector3">
+                <label class="form-check-label" for="proposed_sector3">Real Estate</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="proposed_sector[]" value="Manufacturing" id="proposed_sector4">
+                <label class="form-check-label" for="proposed_sector4">Manufacturing</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="proposed_sector[]" value="Education & Training" id="proposed_sector5">
+                <label class="form-check-label" for="proposed_sector5">Education & Training</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="proposed_sector[]" value="Other" id="proposed_sector6">
+                <label class="form-check-label" for="proposed_sector6">Other</label>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label>Type of Contribution:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="contribution[]" value="Financial Investment" id="contribution1">
+                <label class="form-check-label" for="contribution1">Financial Investment</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="contribution[]" value="Expertise/Consultation" id="contribution2">
+                <label class="form-check-label" for="contribution2">Expertise/Consultation</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="contribution[]" value="Product Development" id="contribution3">
+                <label class="form-check-label" for="contribution3">Product Development</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="contribution[]" value="Operational Support" id="contribution4">
+                <label class="form-check-label" for="contribution4">Operational Support</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="contribution[]" value="Training/Education" id="contribution5">
+                <label class="form-check-label" for="contribution5">Training/Education</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="contribution[]" value="Other" id="contribution6">
+                <label class="form-check-label" for="contribution6">Other</label>
             </div>
         </div>
 
-        <!-- Carousel Controls -->
-        <a class="carousel-control-prev" href="#newsVacancyCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#newsVacancyCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div> <!-- End of Carousel -->
-</div> <!-- /.topics -->
+        <div class="form-group">
+            <label>Preferred Mode of Collaboration:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="collaboration_mode[]" value="Partnership" id="collaboration_mode1">
+                <label class="form-check-label" for="collaboration_mode1">Partnership</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="collaboration_mode[]" value="Contractual" id="collaboration_mode2">
+                <label class="form-check-label" for="collaboration_mode2">Contractual</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="collaboration_mode[]" value="Joint Project" id="collaboration_mode3">
+                <label class="form-check-label" for="collaboration_mode3">Joint Project</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="collaboration_mode[]" value="Other" id="collaboration_mode4">
+                <label class="form-check-label" for="collaboration_mode4">Other</label>
+            </div>
+        </div>
+
+        <h3>4. Additional Comments</h3>
+        <div class="form-group">
+            <label for="comments">Any Additional Comments:</label>
+            <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+
+    <div id="toast" class="toast" style="display: none; position: fixed; top: 20px; right: 20px; z-index: 1000;">
+        <div class="toast-body" style="background-color: #0049e7; color: #fff; padding: 15px; border-radius: 5px;">
+            Registration successful!
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("registrationForm").onsubmit = function(event) {
+    event.preventDefault(); // Prevent default form submission
+    // Validate form inputs
+    let valid = true;
+    const inputs = this.querySelectorAll("input[required], textarea[required]");
+    inputs.forEach(input => {
+        if (!input.value) {
+            valid = false;
+        }
+    });
+    if (valid) {
+        // Prepare form data for AJAX
+        const formData = new FormData(this);
+
+        // Send data to PHP script via AJAX
+        fetch('save_form.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.text())
+        .then(data => {
+            // Handle response from PHP (optional)
+            console.log(data); // For debugging, log response
+            // Show toast notification
+            const toast = document.getElementById("toast");
+            toast.style.display = "block";
+            setTimeout(() => {
+                toast.style.display = "none";
+            }, 3000);
+        })
+        .catch(error => console.error('Error:', error));
+    }
+};
+
+</script>
 
 <!--
 			=====================================================
@@ -253,7 +395,7 @@
               
               
                       <!-- Optional JavaScript _____________________________  -->
-              
+                      
                       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
                       <!-- jQuery -->
                       <script src="vendor/jquery.2.2.3.min.js"></script>

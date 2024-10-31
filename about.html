@@ -48,7 +48,7 @@
 			--><header class="header-one">
     <div class="top-header">
         <div class="container clearfix">
-            <div class="logo float-left"><a href="index.html"><img src="images/logo/logo.svg" alt=""></a></div>
+            <div class="logo float-left"><a href="index.html"><img src="images/logo/android-icon-192x192.png" alt=""></a></div>
             <div class="address-wrapper float-right">
                 <ul>
                     <li class="address">
@@ -71,7 +71,7 @@
 <div class="theme-menu-wrapper">
     <div class="container">
         <div class="bg-wrapper clearfix">
-             <div class="menu-wrapper float-left">
+            <div class="menu-wrapper float-left">
                 <nav id="mega-menu-holder" class="clearfix">
                     <ul class="clearfix">
                         <li class="active"><a href="index.html">Home</a></li>
@@ -84,18 +84,10 @@
                     </ul>
                 </nav>
             </div>
-            <div class="right-widget float-right">
-                <ul>
-                    <li>
-                        <div id="polyglotLanguageSwitcher">
-                            <form action="#">
-                                <select id="polyglot-language-options">
-                                    <option id="en" value="en" selected>English</option>
-                                    <option id="et" value="et">Amharic</option>
-                                </select>
-                            </form>
-                        </div>
-                    </li>
+            <div class="right-widget float-right" >
+				
+
+				<div id="google_translate_element"></div>
                     <li class="social-icon">
                         <ul>
                             <li><a href="https://web.facebook.com/..."><i class="fa fa-facebook"></i></a></li>
@@ -107,6 +99,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 
@@ -455,7 +449,28 @@
 
 
 		<!-- Optional JavaScript _____________________________  -->
-
+        <!-- Google Translate script -->
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+				new google.translate.TranslateElement({
+					pageLanguage: 'en',
+					includedLanguages: 'en,am',
+					layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL // Change to desired layout
+				}, 'google_translate_element');
+		
+				// Hide the Google Translate icon
+				const observer = new MutationObserver(() => {
+					const iframe = document.querySelector("iframe.skiptranslate");
+					if (iframe) {
+						iframe.style.display = 'none';
+					}
+				});
+		
+				observer.observe(document.body, { childList: true, subtree: true });
+			}
+		</script>
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		
     	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     	<!-- jQuery -->
 		<script src="vendor/jquery.2.2.3.min.js"></script>

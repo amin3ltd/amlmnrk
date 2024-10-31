@@ -48,7 +48,7 @@
 			--><header class="header-one">
     <div class="top-header">
         <div class="container clearfix">
-            <div class="logo float-left"><a href="index.html"><img src="images/logo/logo.svg" alt=""></a></div>
+            <div class="logo float-left"><a href="index.html"><img src="images/logo/android-icon-192x192.png" alt=""></a></div>
             <div class="address-wrapper float-right">
                 <ul>
                     <li class="address">
@@ -71,7 +71,7 @@
 <div class="theme-menu-wrapper">
     <div class="container">
         <div class="bg-wrapper clearfix">
-             <div class="menu-wrapper float-left">
+            <div class="menu-wrapper float-left">
                 <nav id="mega-menu-holder" class="clearfix">
                     <ul class="clearfix">
                         <li class="active"><a href="index.html">Home</a></li>
@@ -84,18 +84,10 @@
                     </ul>
                 </nav>
             </div>
-            <div class="right-widget float-right">
-                <ul>
-                    <li>
-                        <div id="polyglotLanguageSwitcher">
-                            <form action="#">
-                                <select id="polyglot-language-options">
-                                    <option id="en" value="en" selected>English</option>
-                                    <option id="et" value="et">Amharic</option>
-                                </select>
-                            </form>
-                        </div>
-                    </li>
+            <div class="right-widget float-right" >
+				
+
+				<div id="google_translate_element"></div>
                     <li class="social-icon">
                         <ul>
                             <li><a href="https://web.facebook.com/..."><i class="fa fa-facebook"></i></a></li>
@@ -107,6 +99,8 @@
         </div>
     </div>
 </div>
+
+
 
 
 
@@ -147,27 +141,27 @@
 						<div class="row">
 							<div class="col-lg-4 col-sm-6 col-12">
 								<div class="single-solution-block">
-									<img src="images/icon/planting.png" alt="" class="icon">
+									<img src="images/icon/zoom.png" alt="" class="icon">
 									<h5><a href="service-details.html">Production and Processing of Agricultural Goods</a></h5>
 									<p>Our agriculture unit focuses on producing and processing high-quality food products. By employing modern agricultural techniques, we ensure efficiency and sustainability, meeting the growing demand for quality food.</p>
 								</div> <!-- /.single-solution-block -->
 							</div> <!-- /.col- -->
 							<div class="col-lg-4 col-sm-6 col-12">
 								<div class="single-solution-block">
-									<img src="images/icon/insurance.png" alt="" class="icon">
+									<img src="images/icon/sheild.png" alt="" class="icon">
 									<h5><a href="service-details.html">Customized Asset Protection Services</a></h5>
 									<p>We provide tailored security solutions designed to protect your assets and ensure peace of mind. From personal security to comprehensive enterprise-level solutions, our services are customized to meet your unique needs.</p>
 								</div> <!-- /.single-solution-block -->
 							</div> <!-- /.col- -->
 							<div class="col-lg-4 col-sm-6 col-12">
 								<div class="single-solution-block">
-									<img src="images/icon/rental.png" alt="" class="icon">
+									<img src="images/icon/zewd.png" alt="" class="icon">
 									<h5><a href="service-details.html">House Rentals and Property Management Services</a></h5>
 									<p>Our real estate division assists clients in finding and securing rental properties. We connect you with suitable living spaces and manage properties to ensure a seamless rental experience.</p>									</div> <!-- /.single-solution-block -->
 							</div> <!-- /.col- -->
 							<div class="col-lg-4 col-sm-6 col-12">
 								<div class="single-solution-block">
-									<img src="images/icon/soap-bottle.png" alt="" class="icon">
+									<img src="images/icon/gentel.png" alt="" class="icon">
 									<h5><a href="service-details.html">Eco-Friendly Detergents and Liquid Soaps</a></h5>
 									<p>We manufacture a variety of cleaning products that prioritize safety and effectiveness. Our commitment to quality and environmental responsibility ensures that our eco-friendly detergents and liquid soaps meet both personal and commercial needs.
 </p>										</div> <!-- /.single-solution-block -->
@@ -351,7 +345,28 @@
 
 
 		<!-- Optional JavaScript _____________________________  -->
-
+        <!-- Google Translate script -->
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+				new google.translate.TranslateElement({
+					pageLanguage: 'en',
+					includedLanguages: 'en,am',
+					layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL // Change to desired layout
+				}, 'google_translate_element');
+		
+				// Hide the Google Translate icon
+				const observer = new MutationObserver(() => {
+					const iframe = document.querySelector("iframe.skiptranslate");
+					if (iframe) {
+						iframe.style.display = 'none';
+					}
+				});
+		
+				observer.observe(document.body, { childList: true, subtree: true });
+			}
+		</script>
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		
     	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     	<!-- jQuery -->
 		<script src="vendor/jquery.2.2.3.min.js"></script>

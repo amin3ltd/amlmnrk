@@ -46,29 +46,68 @@
 			=============================================
 				Theme Header One
 			============================================== 
-			--><header class="header-one">
-    <div class="top-header">
-        <div class="container clearfix">
-            <div class="logo float-left"><a href="index.html"><img src="images/logo/android-icon-192x192.png" alt=""></a></div>
-            <div class="address-wrapper float-right">
-                <ul>
-                    <li class="address">
-                        <i class="icon flaticon-placeholder"></i>
-                        <h6>Head Office:</h6>
-                        <p>XQM7+7W6, Ethio China St, Addis Ababa</p>
-                    </li>
+			-->
+			<header class="header-two">
+				<div class="top-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-sm-8 col-12">
+								<ul class="left-widget" style="list-style: none; padding: 0;">
+									<h3 style="color: white; animation: fadeIn 1s, moveEmoji 1s infinite alternate; text-align: center; font-size: 24px;">
+    Welcome to Rekik Trading! <i><a href="register.html" style="color: #0000EE; text-decoration: underline;">Join us!</a></i> <span style="display: inline-block; animation: move 1s infinite alternate;">✨</span>
+</h3>
 
-					<li class="address">
-                        <i class="icon flaticon-placeholder"></i>
-                        <h6>Branch Office:</h6>
-                        <p>XP8C+R5M, Nefas Silk, Addis Ababa</p>
-                    </li>
-                   
-                   
-                </ul>
-            </div> <!-- /.address-wrapper -->
-        </div> <!-- /.container -->
-    </div> <!-- /.top-header -->
+								</ul>
+								
+								<style>
+									@keyframes fadeIn {
+										from {
+											opacity: 0;
+										}
+										to {
+											opacity: 1;
+										}
+									}
+								
+									@keyframes move {
+										0% {
+											transform: translateY(0);
+										}
+										100% {
+											transform: translateY(-10px); /* Adjust the vertical movement as needed */
+										}
+									}
+								</style>
+								
+									
+								
+								
+							</div>
+							<div class="col-md-6 col-sm-4 col-12">
+								<ul class="social-icon" >
+									<li>
+										<a href="https://www.facebook.com/@layikun.geremew/?mibextid=ZbWKwL" style="font-size: 24px; color: #ffffff; text-decoration: none;" target="_blank">
+											<i class="fa fa-facebook" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://t.me/Rekiktradingplc" style="font-size: 24px; color: #ffffff; text-decoration: none;" target="_blank">
+											<i class="fa fa-telegram" aria-hidden="true"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.tiktok.com/@rekiktradingplc?_t=8qL4OekPdt0&_r=1" target="_blank" style="font-size: 24px; color:#ffffff; text-decoration: none;">
+											<i >tiktok</i>
+										</a>
+									</li>
+								</ul>
+								
+							</div>
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div> <!-- /.top-header -->
+			</header>
+				<header class="header-one">
 <div class="theme-menu-wrapper">
     <div class="container">
         <div class="bg-wrapper clearfix">
@@ -81,25 +120,38 @@
                         <li><a href="project.html">Portfolio</a></li>
                         <li><a href="news.html">News</a></li>
                         <li><a href="contact.html">Contact</a></li>
-						<li><a href="register.html">Register</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="right-widget float-right" >
-				
-
-				<div id="google_translate_element"></div>
-                    <li class="social-icon">
-                        <ul>
-                            <li><a href="https://web.facebook.com/..."><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://t.me/Rekiktradingplc"><i class="fa fa-telegram"></i></a></li>
-                        </ul>
+            <div class="right-widget float-right">
+                <ul>
+                    <li>
+                        <div id="polyglotLanguageSwitcher">
+                            <form action="#">
+                                <select id="polyglot-language-options">
+                                    <option id="en" value="en" selected>English</option>
+                                    <option id="et" value="et">Amharic</option>
+                                </select>
+                            </form>
+                        </div>
                     </li>
+                    <a href="index.html">
+						<img src="images/logo/android-icon-192x192.png" alt="" style="
+							width: 100px; 
+							height: 100px; 
+							border-radius: 50%; 
+							box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+							transition: transform 0.3s ease;
+							display: block; /* Centers the image if it's inline */
+						" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+					</a>
+					
                 </ul>
             </div>
         </div>
     </div>
 </div>
+
 
 
 

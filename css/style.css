@@ -166,99 +166,22 @@
 .m-bottom0 {margin-bottom: 0 !important;}
 .p-bottm0 {padding-bottom: 0 !important;}
 .no-border {border: none !important;}
-/*--------------------- Transition --------------------*/
-.tran3s,h2 a,h3 a,h4 a,h5 a,h6 a,.header-one .top-header .address-wrapper .quotes a,.header-one .theme-menu-wrapper .right-widget .social-icon li a,#mega-menu-holder ul.dropdown li a:before,.theme-button-one,
-#theme-main-banner .camera_pag .camera_pag_ul li > span,.top-feature .main-content,.service-style-one .single-service .text,.service-style-one .single-service,
-.owl-theme .owl-dots .owl-dot span,.our-team .team-member .overlay .hover-content ul li a,.our-team .team-member .overlay,.our-team .team-member .text,.theme-footer-two .top-footer .footer-list ul li a,
-.theme-footer-one .top-footer .footer-list ul li a,.theme-footer-one .bottom-footer ul li a,.header-two .top-header .social-icon li a,.our-case .single-case-block .hover-content,
-.our-case .single-case-block .hover-content .text .details,.accordion-one .panel-group .panel-heading a:before,.our-blog .single-blog .post-meta .read-more,.theme-footer-two .logo-widget .social-icon li a,
-.core-values .single-value-block .image-box .overlay,.theme-sidebar-one .service-categories ul li a,.theme-pagination ul li a,.project-details .project-details-sidebar .social-icon li a,
-.blog-sidebar .sidebar-categories ul li a,.blog-sidebar .sidebar-archives ul li a,.blog-sidebar .sidebar-tags ul li a,.blog-details .share-option  li a,.shop-page .single-product .product-name .price,
-.shop-page .single-product .image-box,.shop-page .single-product .product-name .add-to-cart,.shop-page .single-product .product-name .add-to-cart a,.shop-details .product-review-tab .nav-tabs .nav-link {
-  transition: all .3s ease-in-out;
-}
-.tran4s,.our-solution .single-solution-block .icon,.our-case .single-case-block .hover-content .text,.our-blog .single-blog .image-box img {
-  transition: all .4s ease-in-out;
-}
- /*----------------------- Theme Color File -------------------*/
-.p-color,.header-one .top-header .address-wrapper .quotes a,.header-one .top-header .address-wrapper .address .icon,#theme-main-banner .camera_caption h1,
-#theme-main-banner .camera_caption .theme-button-one,.top-feature .main-content:hover h4 a,.about-compnay .mission-goal li .icon,.service-style-one .single-service .text .read-more,
-.service-style-one .single-service:hover .text h5 a,.service-style-one .contact-text h5,.service-style-one .contact-text h5 a,.our-team .team-member .overlay .hover-content ul li a:hover,
-.theme-counter h6,.single-counter-box .number,.theme-footer-one .top-footer .footer-newsletter .theme-button-one,.header-two #mega-menu-holder>ul> li.active > a, .header-two #mega-menu-holder>ul> li:hover > a,
-.header-two #mega-menu-holder>ul> li.active > .sub-toggle,.header-two #mega-menu-holder>ul> li:hover > .sub-toggle,.callout-banner .theme-button-one,.our-solution .single-solution-block:hover h5 a,
-.faq-section .wrapper .img-box .play,.why-choose-us .single-block .icon,.why-choose-us .single-block:hover h5 a,.short-banner .overlay h2,.our-blog .single-blog .post-meta .read-more,
-.our-blog .single-blog:hover .post-meta .title a,.why-we-best .wrapper .best-list-item li .icon,.why-we-best .wrapper .best-list-item li:hover h5 a,.core-values .single-value-block .image-box .overlay a,
-.core-values .single-value-block:hover .text h5 a,.theme-sidebar-one .service-categories ul li a:hover,.theme-sidebar-one .service-categories ul li.active a,
-.service-details .service-content .presentation-section .best-list-item li .icon,.project-details .project-details-sidebar .social-icon li a:hover,.blog-sidebar .sidebar-categories ul li a:hover,
-.blog-sidebar .sidebar-recent-post li .post a:hover,.blog-sidebar .sidebar-archives ul li a:hover,.blog-details .share-option .tag-meta li a:hover,.blog-details .share-option .social-icon li a:hover,
-.our-blog .comment-area .single-comment .comment a,.shop-page .single-product .product-name .price,.shop-page .single-product:hover .product-name h5 a,.shop-page .single-product .product-name .add-to-cart a,
-.shop-details .product-details .product-info .price,.faq-page .panel-group .panel-heading h6 a:before {
-  color:#b92626;
-}
-.p-bg-color,.scroll-top,.header-one .top-header .address-wrapper .quotes a:hover,.theme-menu-wrapper .right-widget .search-option form button,
-#mega-menu-holder ul.dropdown li:hover>a:before,.theme-button-one,#theme-main-banner .camera_caption .theme-button-one:hover,.callout-banner.no-bg .theme-button-one,
-#theme-main-banner .camera_pag .camera_pag_ul li.cameracurrent > span,#theme-main-banner .camera_pag .camera_pag_ul li:hover > span,.service-style-one .contact-text h5:before,
-.testimonial-section .owl-theme .owl-dots .owl-dot.active span,.testimonial-section .owl-theme .owl-dots .owl-dot:hover span,#polyglotLanguageSwitcher ul.dropdown li:hover,
-.our-case .single-case-block .hover-content .text .details:hover,.our-blog .single-blog .image-box .overlay .date,.core-values .single-value-block .image-box .overlay a:hover,
-.theme-sidebar-one .sidebar-brochures ul,.theme-pagination ul li a:hover,.theme-pagination ul li.active a,.blog-sidebar .sidebar-tags ul li.active a,.blog-sidebar .sidebar-tags ul li a:hover  {
-  background: #188618;
-}
-.header-one .top-header .address-wrapper .quotes a,#theme-main-banner .camera_pag .camera_pag_ul li,.theme-pagination ul li a:hover,.theme-pagination ul li.active a,.blog-sidebar .sidebar-tags ul li.active a,
-.blog-sidebar .sidebar-tags ul li a:hover,.shop-page .single-product:hover .image-box {
-  border-style: solid;
-  border-color:#188618;
-}
-/*----------------- Theme button ------------------*/
-body .theme-button-one {
-  line-height: 50px;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #fff;
-  border-radius: 5px;
-  padding: 0 35px;
-}
-body .theme-button-one:hover {background:#188618; }
-/*------------------- Theme Title ------------------*/
-.theme-title-one {position: relative;text-align: center;}
-.theme-title-one h2 {
+/*--------------------------- Combined Header ---------------------*/
+.combined-header {
   position: relative;
-  text-transform: uppercase;
-  padding-bottom: 22px;
 }
-.theme-title-one h2:before {
-  content: '';
-  width: 40px;
-  height: 4px;
-  border-radius: 10px;
-  background: #c3c3c3;
-  position: absolute;
-  bottom: 0;
-  left:50%;
-  margin-left: -20px;
+
+.combined-header .top-header {
+  background: #188618; /* Background from header-two */
+  padding: 40px 0 32px 0; /* Padding from header-one */
 }
-.theme-title-one p {padding-top: 20px;}
-/*------------------- Theme Pagination ------------------*/
-.theme-pagination ul {padding-top: 40px;}
-.theme-pagination ul li {display: inline-block;}
-.theme-pagination ul li a {
-  display: block;
-  font-size: 16px;
-  color: #232323;
-  width: 50px;
-  line-height: 48px;
-  text-align: center;
-  border-radius: 5px;
-  border: 1px solid #dadada;
+
+.combined-header .top-header .address-wrapper li {
+  display: inline-block;
+  vertical-align: middle;
 }
-.theme-pagination ul li a:hover,
-.theme-pagination ul li.active a {color: #fff;}
-.theme-pagination ul li.active a {cursor: default;}
-/*--------------------------- Theme Header One  ---------------------*/
-.header-one {position: relative;}
-.header-one .top-header {background: #fff;padding: 40px 0 32px 0;}
-.header-one .top-header .address-wrapper li {display: inline-block;vertical-align: middle;}
-.header-one .top-header .address-wrapper .quotes a {
+
+.combined-header .top-header .address-wrapper .quotes a {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -267,74 +190,115 @@ body .theme-button-one:hover {background:#188618; }
   border-width: 2px;
   border-radius: 5px;
 }
-.header-one .top-header .address-wrapper .quotes a:hover {color: #fff;}
-.header-one .top-header .address-wrapper .address {
+
+.combined-header .top-header .address-wrapper .quotes a:hover {
+  color: #fff;
+}
+
+.combined-header .top-header .address-wrapper .address {
   position: relative;
   padding: 0 38px 0 60px;
   margin-right: 15px;
 }
-.header-one .top-header .address-wrapper .address .icon {
+
+.combined-header .top-header .address-wrapper .address .icon {
   position: absolute;
-  top:-6px;
-  left:0;
+  top: -6px;
+  left: 0;
   font-size: 40px;
 }
-.header-one .top-header .address-wrapper .address:first-child:before {
+
+.combined-header .top-header .address-wrapper .address:first-child:before {
   content: '';
   position: absolute;
-  top:5px;
+  top: 5px;
   right: 0;
   width: 1px;
   height: 42px;
   background: #e8e8e8;
 }
-.header-one .top-header .address-wrapper .address:first-child {margin-right: 35px;}
-/*--------------------------- Theme Header Two  ---------------------*/
-.header-two .top-header {background: #188618;padding: 12px 0;}
-.header-two .top-header .left-widget li {display: inline-block;color: #fff;font-size: 16px;}
+
+.combined-header .top-header .address-wrapper .address:first-child {
+  margin-right: 35px;
+}
+
+.combined-header .top-header .left-widget li {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+}
 
 #polyglotLanguageSwitcher span.trigger:before {
-
   font-family: 'font-awesome';
- 
-  color:#fff;
-  
+  color: #fff;
 }
+
 #polyglotLanguageSwitcher a {
   font-family: 'Open Sans', sans-serif;
   display: inline-block;
   font-size: 15px;
-  color:#fff;
+  color: #fff;
   font-weight: normal;
 }
-.header-two .top-header .social-icon {text-align: right;}
-.header-two .top-header .social-icon li {display: inline-block;margin-left: 15px;}
-.header-two .top-header .social-icon li a {font-size: 15px;color: #ccd1dd;}
-.header-two .top-header .social-icon li a:hover {color: #fff;}
-/*------------------------ Theme menu One --------------------*/
-.header-one .theme-menu-wrapper {position: relative;z-index: 99;margin-bottom: -42px;}
-.header-one .theme-menu-wrapper .bg-wrapper {background: #188618;position: relative;padding-left: 25px;}
-.theme-menu-wrapper .right-widget ul li {display: inline-block;line-height: 75px;vertical-align: middle;}
-.theme-menu-wrapper .right-widget .social-icon li a {
+
+.combined-header .top-header .social-icon {
+  text-align: right;
+}
+
+.combined-header .top-header .social-icon li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.combined-header .top-header .social-icon li a {
+  font-size: 15px;
+  color: #ccd1dd;
+}
+
+.combined-header .top-header .social-icon li a:hover {
+  color: #fff;
+}
+
+/*------------------------ Theme Menu --------------------*/
+.combined-header .theme-menu-wrapper {
+  position: relative;
+  z-index: 99;
+  margin-bottom: -42px;
+}
+
+.combined-header .theme-menu-wrapper .bg-wrapper {
+  background: #188618; /* Consistent background */
+  position: relative;
+  padding-left: 25px;
+}
+
+.combined-header .theme-menu-wrapper .right-widget ul li {
+  display: inline-block;
+  line-height: 75px;
+  vertical-align: middle;
+}
+
+.combined-header .theme-menu-wrapper .right-widget .social-icon li a {
   font-size: 15px;
   color: #ccd1dd;
   margin: 0 7px;
 }
 
-.theme-menu-wrapper .right-widget .social-icon li a:hover {color: #fff;}
-.theme-menu-wrapper .right-widget .cart-icon {
+.combined-header .theme-menu-wrapper .right-widget .cart-icon {
   margin-left: 30px;
   width: 60px;
   text-align: center;
   border-right: 1px solid #0d2356;
   border-left: 1px solid #0d2356;
 }
-.theme-menu-wrapper .right-widget .cart-icon a {
+
+.combined-header .theme-menu-wrapper .right-widget .cart-icon a {
   position: relative;
   color: #cfd6e6;
   font-size: 16px;
 }
-.theme-menu-wrapper .right-widget .cart-icon a span {
+
+.combined-header .theme-menu-wrapper .right-widget .cart-icon a span {
   font-family: 'Nunito Sans', sans-serif;
   position: absolute;
   width: 15px;
@@ -348,107 +312,105 @@ body .theme-button-one:hover {background:#188618; }
   top: 23px;
   right: -8px;
 }
-.theme-menu-wrapper .right-widget .search-option .dropdown-toggle {
+
+.combined-header .theme-menu-wrapper .right-widget .search-option .dropdown-toggle {
   background: transparent;
   font-size: 15px;
   color: #cfd6e6;
   width: 55px;
 }
-.theme-menu-wrapper .right-widget .search-option .dropdown-toggle:after {display: none;}
-.theme-menu-wrapper .right-widget .search-option .dropdown-menu {
-  -webkit-transform:none !important;
-          transform:none !important;
+
+.combined-header .theme-menu-wrapper .right-widget .search-option .dropdown-toggle:after {
+  display: none;
+}
+
+.combined-header .theme-menu-wrapper .right-widget .search-option .dropdown-menu {
+  transform: none !important;
   position: absolute;
-  height:55px;
-  width:280px;
+  height: 55px;
+  width: 280px;
   padding: 5px;
   border-radius: 0;
   right: 0 !important;
-  left:auto !important;
-  top:100% !important;
+  left: auto !important;
+  top: 100% !important;
   box-shadow: none;
-  border:none;
-  float:none;
-  margin:0;
+  border: none;
+  float: none;
+  margin: 0;
   background: #fff;
-  box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.23);
+  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.23);
 }
-.theme-menu-wrapper .right-widget .search-option form input {
+
+.combined-header .theme-menu-wrapper .right-widget .search-option form input {
   position: absolute;
-  top:5px;
-  left:5px;
+  top: 5px;
+  left: 5px;
   right: 5px;
   bottom: 5px;
   background: transparent;
-  border:1px solid #ececec;
+  border: 1px solid #ececec;
   padding: 0 49px 0 10px;
 }
-.theme-menu-wrapper .right-widget .search-option form button {
+
+.combined-header .theme-menu-wrapper .right-widget .search-option form button {
   display: block;
-  width:48px;
-  color:#fff;
-  border:1px solid #fff;
-  border-left:none;
+  width: 48px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-left: none;
   line-height: 45px;
   text-align: center;
   position: absolute;
-  top:4px;
-  right:5px;
+  top: 4px;
+  right: 5px;
 }
-/*------------------------ Theme menu Two --------------------*/
-.header-two #mega-menu-holder>ul> li> a,.header-two #mega-menu-holder li .sub-toggle,
-.header-two #mega-menu-holder>ul> li> a:before {color: #555555;}
-.header-two #mega-menu-holder>ul> li> a {padding-top: 38px;padding-bottom: 38px;}
-.header-two #mega-menu-holder>ul> li> a:before,
-.header-two #mega-menu-holder li .sub-toggle {line-height: 97px;}
-.header-two #mega-menu-holder li>ul.dropdown li:first-child {border-top:1px solid rgba(0,0,0,0.04);}
-.header-two .theme-menu-wrapper .bg-wrapper {position: relative;padding-left: 330px;}
-.header-two .theme-menu-wrapper .bg-wrapper .logo {
-  position: absolute;
-  left:0;
-  z-index: 99;
-  top:50%;
-  -webkit-transform:translateY(-50%);
-          transform:translateY(-50%);
-}
-.header-two .theme-menu-wrapper .right-widget ul li {line-height: 97px;}
-.header-two .theme-menu-wrapper .right-widget .search-option .dropdown-toggle {width: auto;color: #555555;}
-.header-two .theme-menu-wrapper .right-widget .cart-icon {
-  border: none;
-  width: auto;
-  margin: 0 20px 0 0;
-}
-.header-two .theme-menu-wrapper .right-widget .cart-icon a {color: #555555;font-size: 18px;}
-.header-two .theme-menu-wrapper .right-widget .cart-icon a span {
-  background: #188618;
-  color: #fff;
-  top:35px;
-}
+
 /*================= Sticky Menu ===============*/
 @-webkit-keyframes menu_sticky {
-  0%  {margin-top:-75px;opacity: 0;}
-  50%  {margin-top: -64px;opacity: 0;}
-  100% {margin-top: 0;opacity: 1;}
+  0% {
+    margin-top: -75px;
+    opacity: 0;
+  }
+  50% {
+    margin-top: -64px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
 }
+
 @keyframes menu_sticky {
-  0%  {margin-top:-75px;opacity: 0;}
-  50%  {margin-top: -64px;opacity: 0;}
-  100% {margin-top: 0;opacity: 1;}
+  0% {
+    margin-top: -75px;
+    opacity: 0;
+  }
+  50% {
+    margin-top: -64px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
 }
-.theme-menu-wrapper.fixed {
+
+.combined-header .theme-menu-wrapper.fixed {
   position: fixed !important;
-  width:100%;
-  top:0;
-  left:0;
+  width: 100%;
+  top: 0;
+  left: 0;
   z-index: 999;
   background: #188618;
   margin: 0;
   padding-top: 0;
-  box-shadow: 0px 13px 35px -12px rgba(35,35,35,0.15);
-  -webkit-animation: menu_sticky 0.7s ease-in-out;
+  box-shadow: 0px 13px 35px -12px rgba(35, 35, 35, 0.15);
   animation: menu_sticky 0.7s ease-in-out;
 }
-.header-two .theme-menu-wrapper.fixed {background: #fff;}
+
+/* Theme-specific styles can go below this line. */
 /*---------------------------- Theme Main Banner -------------------------*/
 #theme-main-banner {margin: 0 !important;}
 .camera_wrap {float:none;}
@@ -546,23 +508,48 @@ body .theme-button-one:hover {background:#188618; }
 .top-feature.fix-border .main-content {border-top: 4px solid transparent;border-bottom: none;}
 .top-feature.fix-border .main-content:hover {border-top-color: #188618;}
 /*------------------ About Company -----------------*/
-.about-compnay img {border-radius: 5px;}
+.about-compnay img {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+}
+
 .about-compnay .mission-goal {
-  border-top:1px solid #dcdcdc;
+  border-top: 1px solid #dcdcdc;
   padding-top: 23px;
   margin-top: 33px;
+  background-color: #f9f9f9; /* Light background for contrast */
 }
+
 .about-compnay .mission-goal li {
   float: left;
   width: 33.33333333%;
-  text-align: center;
+  text-align: left; /* Changed to left alignment */
   position: relative;
+  padding: 20px; /* Adds spacing around list items */
+  transition: background-color 0.3s; /* Smooth transition for hover effects */
 }
-.about-compnay .mission-goal li .icon {font-size: 55px;}
+
+.about-compnay .mission-goal li:hover {
+  background-color: #e0f7fa; /* Light blue background on hover */
+}
+
+.about-compnay .mission-goal li .icon {
+  font-size: 55px;
+  color: #007BFF; /* Change icon color for visibility */
+  display: block; /* Ensure icon is on its own line */
+  margin-bottom: 10px; /* Space between icon and text */
+}
+
 .about-compnay .mission-goal li:nth-child(2) {
   border-left: 1px dashed #c3c3c3;
   border-right: 1px dashed #c3c3c3;
+  background-color: #ffffff; /* Different background for the middle item */
 }
+
+.about-compnay .mission-goal li:nth-child(2):hover {
+  background-color: #e0f7fa; /* Light blue background on hover for the middle item */
+}
+
 /*------------------ Feature Banner ---------------*/
 .feature-banner {
   background: url(../images/home/back1.jpg) no-repeat center center;
